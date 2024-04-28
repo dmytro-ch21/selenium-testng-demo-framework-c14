@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true"
+          name="Regression">
+        <parameter name="browserType" value="firefox"/>
+        <classes>
+            <class name="com.orange_hrm.test.LoginTests"/>
+            <class name="com.orange_hrm.test.AdminPageTests"/>
+        </classes>
+    </test>
+</suite>
